@@ -22917,7 +22917,7 @@ function randSkin() {
 		}
 
 		inventoryCurrent += 10;
-		itemCounter += 10;
+		itemCounter += 1;
 	}
 
 	skinChoose(rarity);
