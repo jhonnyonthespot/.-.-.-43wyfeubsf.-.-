@@ -23359,7 +23359,7 @@ var stackingUpgrades = {
 		price: 1,
 		cp: 0.00,
 		kp: 0.00,
-		is: 1,
+		is: 0,
 		mc: 0.00,
 		img: "https://steamcommunity-a.akamaihd.net/economy/image/U8721VM9p9C2v1o6cKJ4qEnGqnE7IoTQgZI-VTdwyTBeimAcIoxXpgK8bPeslY9pPJIvB5IWW2-452kaM8heLSRgleGAr7BMx-94b6MohOf-Xwsn7-USVDXgHhOG1zPDeLmsxwRtYpItIUb2wskZ6I0FWp9DdsKkOtQslw/100fx100f"
 	},
