@@ -22791,8 +22791,8 @@ var totalKnivesOpened = 0;
 /*===============LOGIC===============*/
 
 function beatboy() {
-	money += 5000;
-	inventoryMax += 200
+	money += 50;
+	inventoryMax += 900
 	stackingUpgradesPurchased['upgrade1'] += 200;
 };
 
@@ -23355,8 +23355,8 @@ var stackingUpgrades = {
 	upgrade1: {
 		name: "Inventory Space",
 		desc: "+1 to your max inventory space.",
-		basePrice: 15,
-		price: 15,
+		basePrice: 1,
+		price: 1,
 		cp: 0.00,
 		kp: 0.00,
 		is: 1,
@@ -23377,8 +23377,8 @@ var stackingUpgrades = {
 	upgrade3: {
 		name: "More Money",
 		desc: "More money per click +10",
-		basePrice: 500,
-		price: 500,
+		basePrice: 50,
+		price: 50,
 		cp: 0.00,
 		kp: 0.00,
 		is: 0,
