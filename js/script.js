@@ -20985,17 +20985,17 @@ var cases = {
 			},
 			weap2: {
 				name: "Souvenir Desert Eagle | Hand Cannon MW",
-				price: 65.39,
+				price: 65.00,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjVD4ti1lY6FmPnLP7LWnn9u5MRjjeyP8Nrw0AO3rhFuYGr0dYKXcVI8Y12EqVC5xu3rh8fqv8mfzXJlsyUq4GGdwUIWZtGMPw"
 			},
 			weap3: {
 				name: "Souvenir Desert Eagle | Hand Cannon FT",
-				price: 65.64,
+				price: 65.00,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjVD4ti1lY6FmPnLPr7Vn35c18lwmO7Eu43z3wTjqhJuMm_0IYXEIQJrNQyD_gK7xbu6g5a-6JjOyHJi7iIh43_D30vg-AZcby4"
 			},
 			weap4: {
 				name: "Souvenir Desert Eagle | Hand Cannon WW",
-				price: 65.99,
+				price: 65.00,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjVD4ti1lY6FmPnLPr7Vn35c18lwmO7Eu43z3wTjqhJuMm_0IYXEIQJrNQyD_gK7xbu6g5a-6JjOyHJi7iIh43_D30vg-AZcby4"
 			},
 			weap5: {
@@ -21005,12 +21005,12 @@ var cases = {
 			},
 			weap6: {
 				name: "Souvenir CZ75-Auto | Chalice FN",
-				price: 90.44,
+				price: 90.00,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73YzJb7dCJmImMn-PLP7rDkW4f7px33evFrYmg2wblrRJsZm7xddLGcFQ5ZljV-le-ybvqgJG878mYn2wj5HevAX6yDA"
 			},
 			weap7: {
 				name: "Souvenir CZ75-Auto | Chalice MW",
-				price: 90.54,
+				price: 90.00,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73YzJb7dCJmImMn-PLP7rDkW4f7px33evFrYmg2wblrRJsZm7xddLGcFQ5ZljV-le-ybvqgJG878mYn2wj5HevAX6yDA"
 			}
 		},
