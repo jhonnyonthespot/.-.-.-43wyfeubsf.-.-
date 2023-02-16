@@ -45,7 +45,7 @@ var keyDiscount = 0;
 var operationCases = {
 	case1: {
 		name: "Weapon Case 1",
-		price: 6.90,
+		price: 3.90,
 		img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsRVx4MwFo5_T3eAQ3i6DMIW0X7ojiwoHax6egMOKGxj4G68Nz3-jCp4itjFWx-ktqfSmtcwqVx6sT"
 	},
 	case2: {
@@ -145,7 +145,7 @@ var operationCases = {
 	},
 	case21: {
 		name: "ESL One Cologne 2014 Cobblestone Souvenir Package",
-		price: 184.26,
+		price: 30.26,
 		img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXU5A1PIYQNqhpOSV-fRPasw8rsVk54dFBopqiqJghf1_b3cj9A4Nn4wYSJxPagMeyFw21Q68N32O3DotX021Gx_Uttaj_zJIHHJ1M5Yl6D-k_-n7lVjEgWRQ"
 	},
 	case22: {
@@ -20990,27 +20990,27 @@ var cases = {
 			},
 			weap3: {
 				name: "Souvenir Desert Eagle | Hand Cannon FT",
-				price: 43.64,
+				price: 65.64,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjVD4ti1lY6FmPnLPr7Vn35c18lwmO7Eu43z3wTjqhJuMm_0IYXEIQJrNQyD_gK7xbu6g5a-6JjOyHJi7iIh43_D30vg-AZcby4"
 			},
 			weap4: {
 				name: "Souvenir Desert Eagle | Hand Cannon WW",
-				price: 67.99,
+				price: 65.99,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjVD4ti1lY6FmPnLPr7Vn35c18lwmO7Eu43z3wTjqhJuMm_0IYXEIQJrNQyD_gK7xbu6g5a-6JjOyHJi7iIh43_D30vg-AZcby4"
 			},
 			weap5: {
 				name: "Souvenir Desert Eagle | Hand Cannon BS",
-				price: 56.00,
+				price: 65.00,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgposr-kLAtl7PLZTjVD4ti1lY6FmPnLO77QgHJu5MRjjeyPpt703ALnqUFvZDj6J4KWdFNrNF2B81G-ybjphsO96JWfnSBnu3Yl52GdwUJxcGeYOA"
 			},
 			weap6: {
 				name: "Souvenir CZ75-Auto | Chalice FN",
-				price: 44.44,
+				price: 90.44,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73YzJb7dCJmImMn-PLP7rDkW4f7px33evFrYmg2wblrRJsZm7xddLGcFQ5ZljV-le-ybvqgJG878mYn2wj5HevAX6yDA"
 			},
 			weap7: {
 				name: "Souvenir CZ75-Auto | Chalice MW",
-				price: 43.54,
+				price: 90.54,
 				img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpotaDyfgZf0v73YzJb7dCJmImMn-PLP7rDkW4f7px33evFrYmg2wblrRJsZm7xddLGcFQ5ZljV-le-ybvqgJG878mYn2wj5HevAX6yDA"
 			}
 		},
