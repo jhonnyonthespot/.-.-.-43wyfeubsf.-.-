@@ -1,4 +1,4 @@
-// CSGOClicker - Case CSGOClicker
+\// CSGOClicker - Case CSGOClicker
 //money, inventory, jackpot
 (function(){
 var itemCounter = 0;
@@ -24442,4 +24442,145 @@ function getBase64Image(img, sizeRatio, type, quality) {
 
     var ctx = canvas.getContext("2d");
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-    // if we already
+    // if we already tried to reduce its size but it's still failing, then reduce the jpeg quality
+    var dataURL = canvas.toDataURL(type, quality);
+    
+    return dataURL;
+   }
+   else
+  {
+    var canvas = document.createElement("canvas");
+	// if our image file is too large, then reduce its size
+    canvas.width = img.width;
+    canvas.height = img.height;
+
+    var ctx = canvas.getContext("2d");
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    // if we already tried to reduce its size but it's still failing, then reduce the jpeg quality
+    var dataURL = canvas.toDataURL(type, quality);
+    
+    return dataURL;
+   }
+}
+
+function fetchimage () {
+    var dataImage = localStorage.getItem('imgData');
+    img.src = dataImage;
+}
+
+// Call fetch to get image from localStorage.
+fetchimage();
+
+$('#save').on('click', function(){
+
+    $('input[type="text"]').each(function(){    
+        var id = $(this).attr('id');
+        var value = $(this).val();
+       localStorage.setItem(id, value);
+        
+    });   
+});
+
+/*==============================================================================
+Canvas
+
+==============================================================================*/
+/*
+// "+1" popups
+var canvas = document.getElementById("drawing");
+var ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth - $('.right').width();
+canvas.height = window.innerHeight;
+var tt = [];
+function makeToolTip(element, ) {
+}
+*/
+
+
+/*
+$("#case").click(function() {
+  var randX = Math.floor(Math.random() * 240);
+  var randY = Math.floor(Math.random() * 180);
+  var text = "+ $" + moneyPC;
+  var alpha = 1.0;
+  var interval = setInterval(function () {
+    ctx.save();
+    canvas.width = canvas.width;
+    ctx.fillStyle = "rgba(255, 0, 0, " + alpha + ")";
+    ctx.font = "20px Georgia";
+    ctx.fillText(text, randX, randY);
+    alpha -= 0.05;
+    if (alpha < 0) {
+      canvas.width = canvas.width;
+      clear(interval);
+    }
+    ctx.restore();
+  }, 50);
+});
+*/
+
+
+/*
+var fps = 1000 / 60;
+var degrees = 0;
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth - $('.right').width();
+canvas.height = window.innerHeight;
+function drawBackground() {
+  var image = new Image();
+  image.onload = function() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.save();
+    ctx.translate(canvas.width / 2, canvas.height / 2);
+    ctx.rotate(degrees * Math.PI / 180);
+    ctx.drawImage(image, -image.width / 2, -image.height / 2);
+    ctx.restore();
+    degrees += 0.1;
+    setTimeout(drawBackground, fps);
+    //requestFrameAnimation(drawBackground);
+  }
+   image.src = "images/sunburst.png";
+}
+function drawCase() {
+  var image = new Image();
+  image.onload = function() {
+    ctx.drawImage(image, canvas.width / 2 - image.width / 2, canvas.height / 2 - image.height / 2);
+  }
+  image.src = "images/case.png";
+}
+function drawOrder() {
+  drawBackground();
+}
+drawOrder();
+*/
+/*function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+*/
+function init() {
+	loadGameState();
+	caseInfo();
+	backgroundCheck();
+	drawCases();
+	drawStackingUpgrades();
+}
+init();
+})();
